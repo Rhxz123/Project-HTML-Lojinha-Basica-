@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojinha Free Fire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lojinha Free Fire</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#carrinho" id="carrinho-link">Carrinho (<span id="carrinho-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bem-vindo à nossa loja!</h2>
+            <p>Aqui você pode conferir nossos produtos e novidades.</p>
+        </section>
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <p>Aqui você pode conferir alguns dos nossos produtos em destaque.</p>
+            <div class="product-display">
+                <img src="https://freefirebr.com.br/wp-content/uploads/2020/11/2-Conta-com-mais-Curtidas.jpg"
+                    alt="Conheça as Contas mais RARAS do Free Fire | FreeFireBR" class="featured-image">
+                <button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma loja com o objetivo de vender contas de Free Fire, com segurança e velocidade.</p>
+            <p>Vemos que falta isso na comunidade, em meio a esses golpes, roubos e hackeamento, decidimos criar essa loja, onde os jogadores entram em contato com nossa equipe para vender suas contas sem nenhum problema.</p>
+            <p>Intermediamos as vendas assim assegurando tanto quem está vendendo quanto quem está comprando.</p>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Email: lojinhafreefireOficial@gmail.com</p>
+            <p>Instagram: @LojinhaFreeFireOF</p>
+            <p>Whatsapp: (13) 99*11-660*</p>
+        </section>
+        <section id="carrinho">
+            <h2>Carrinho de Compras</h2>
+            <div id="carrinho-items">
+                <!-- Itens do carrinho serão adicionados aqui -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Lojinha Free Fire. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
